@@ -1,0 +1,277 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+#myVideo {
+  min-width: 100%;
+  min-height: 100vh;
+  max-width: 100%;
+  max-height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+  position: absolute;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  font-weight: bold;
+  background-color: rgba(35, 45, 57, 0.84);
+  width: 100%;
+}
+.logo {
+  font-size: 200%;
+  padding: 3% 28% 0% 4%;
+  cursor: pointer;
+}
+
+.content {
+  padding: 2% 1% 2% 1%;
+  display: flex;
+  justify-content: space-evenly;
+  width: 40%;
+  cursor: pointer;
+  align-items: baseline;
+  font-size: 80%;
+}
+
+.signup {
+  background: #ed563b;
+  font-weight: bold;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  border: none;
+  margin: 1%;
+  cursor: pointer;
+}
+.signup:hover {
+  color: #f2edec;
+}
+
+.lines {
+  text-align: center;
+  padding: 10%;
+  color: white;
+  font-weight: bold;
+  font-size: 2rem;
+  background-color: rgba(35, 45, 57, 0.8);
+}
+
+.line1 {
+  font-size: 20px;
+}
+
+.line2 {
+  margin-top: 4%;
+}
+
+.member {
+  background: #ed563b;
+  font-weight: bold;
+  color: white;
+  border-radius: 5px;
+  padding: 15px;
+  border: none;
+  margin: 1%;
+  cursor: pointer;
+  margin: 40px;
+}
+.member:hover {
+  color: #f2edec;
+}
+
+.contentitem:hover {
+  color: #ed563b;
+}
+
+.second-container {
+  padding-top: 8%;
+}
+
+.second-content {
+  text-align: center;
+}
+
+.choose {
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+.curl {
+  padding-top: 2%;
+}
+
+.line {
+  padding-top: 2%;
+  color: #7a7a7a;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 50px;
+}
+
+.grid-item {
+  display: flex;
+  padding: 6%;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: left;
+  padding-left: 25px;
+  line-height: 20px;
+}
+
+.discover {
+  color: #ff0000;
+  font-size: 12px;
+}
+
+.discover:hover {
+  cursor: pointer;
+}
+
+.h4 {
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+.para {
+  font-size: 14px;
+  color: #7a7a7a;
+}
+
+.third-container {
+  background-image: url(cta-bg.jpg);
+  color: white;
+  text-align: center;
+  padding: 5%;
+}
+
+h3 {
+  font-size: 220%;
+  letter-spacing: 0.5px;
+}
+
+.thirdline {
+  padding-top: 2%;
+  font-size: 17px;
+  line-height: 2;
+}
+
+.fifth-container {
+  padding-top: 8%;
+  text-align: center;
+}
+
+.expert {
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+.content2 {
+  display: flex;
+  padding-top: 5%;
+  line-height: 25px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.trainer1 {
+  text-align: initial;
+  font-size: 15px;
+  margin: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 15px rgb(0 0 0 / 10%);
+  padding: 40px;
+}
+.trainer2 {
+  text-align: initial;
+  font-size: 15px;
+  margin: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 15px rgb(0 0 0 / 10%);
+  padding: 40px;
+}
+.trainer3 {
+  text-align: initial;
+  font-size: 15px;
+  margin: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 15px rgb(0 0 0 / 10%);
+  padding: 40px;
+}
+
+.sixth-container {
+  display: flex;
+  padding-top: 8%;
+}
+.sixthcontainer2 {
+  background-image: url(contact-bg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.form-details {
+  background-color: white;
+  box-shadow: 0px 0px 15px rgb(0 0 0 / 10%);
+  text-align: center;
+  margin: 12%;
+  border-radius: 10px;
+}
+#message {
+  width: 86%;
+  height: 150px;
+  border: 1px solid rgb(190, 190, 190);
+  background-color: white;
+  resize: none;
+  margin-top: 3%;
+  padding-bottom: 26%;
+}
+#subject {
+  width: 86%;
+  height: 50px;
+  border: 1px solid rgb(190, 190, 190);
+  background-color: white;
+  resize: none;
+  margin-top: 3%;
+}
+#email {
+  width: 40%;
+  height: 50px;
+  border: 1px solid rgb(190, 190, 190);
+  background-color: white;
+  resize: none;
+  /* margin-top: 3%; */
+  margin-left: 5%;
+}
+#name {
+  width: 40%;
+  height: 50px;
+  border: 1px solid rgb(190, 190, 190);
+  background-color: white;
+  resize: none;
+  margin-top: 10%;
+}
+.footer{
+  height: 50px;
+  text-align: center;
+  padding-top: 1.5%;
+}
